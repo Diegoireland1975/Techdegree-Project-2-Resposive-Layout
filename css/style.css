@@ -199,8 +199,7 @@ a {
     align-items: center;
   }
   .name {
-    align-self: flex-start;
-    height: 100px;
+    align-self: center;
   }
 
   .main-header,
@@ -213,7 +212,6 @@ a {
 
   .main-nav .nav {
     justify-content: flex-end;
-    align-self: center;
   }
 
   .portfolio-content {
