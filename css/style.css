@@ -45,7 +45,7 @@ a {
 }
 
 /* MAIN NAV */
-#top {
+.name {
   font-weight: bold;
   font-size: 1.7rem;
 }
@@ -198,8 +198,8 @@ a {
     flex-direction: row;
     align-items: center;
   }
-  #top {
-    align-self: center;
+  .name {
+    align-self: flex-end;
   }
 
   .main-header,
