@@ -200,6 +200,7 @@ a {
   }
   .name {
     align-self: flex-start;
+    height: 100px;
   }
 
   .main-header,
