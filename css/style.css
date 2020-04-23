@@ -55,13 +55,17 @@ a {
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+.main-header {
+  padding-top: 1rem;
+}
 
 .main-header,
 .header-content {
   background: #fafafa;
 }
+
 .header-content {
-  padding: 0 4rem;
+  padding: 0 4rem 3rem;
   margin-bottom: 2rem;
 }
 
@@ -77,7 +81,7 @@ a {
 }
 
 .main-nav li {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -145,6 +149,10 @@ a {
 /* /////MEDIA QUERIES ///////// */
 /* tablet */
 @media (min-width: 768px) {
+  .main-header {
+    padding-top: 2rem;
+  }
+
   .main-nav .nav {
     flex-direction: row;
     justify-content: center;
@@ -197,9 +205,11 @@ a {
   .main-header {
     flex-direction: row;
     align-items: center;
+    padding-top: 3rem 0;
   }
-  .name {
-    align-self: center;
+
+  .main-nav {
+    margin: auto;
   }
 
   .main-header,
