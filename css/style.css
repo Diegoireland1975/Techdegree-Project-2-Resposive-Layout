@@ -144,7 +144,7 @@ a {
 
 /* /////MEDIA QUERIES ///////// */
 /* tablet */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .main-nav .nav {
     flex-direction: row;
     justify-content: center;
@@ -193,7 +193,7 @@ a {
 }
 
 /* Desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .main-header {
     flex-direction: row;
     align-items: center;
